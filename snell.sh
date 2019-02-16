@@ -6,7 +6,7 @@ cd ～/
 wget --no-check-certificate -O snell.zip https://github.com/surge-networks/snell/releases/download/1.0/snell-server-v1.0.0-linux-amd64.zip
 unzip snell.zip
 rm snell.zip -y
-chmod 777 snell-server
+chmod +x snell-server
 cd /etc/systemd/system
 
 cat > snell.service<<-EOF
