@@ -23,6 +23,7 @@ RestartSec=1s
 WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
+sysctmctl enable snell
 systemctl start snell
 systemctl restart snell
 cat /snell-server.conf
