@@ -38,8 +38,6 @@ else
   echo "" >>${SYSTEMD}
   echo "[Service]" >>${SYSTEMD}
   echo "Type=simple" >>${SYSTEMD}
-  echo "User=nobody" >>${SYSTEMD}
-  echo "Group=nogroup" >>${SYSTEMD}
   echo "LimitNOFILE=32768" >>${SYSTEMD}
   echo "ExecStart=/usr/local/bin/snell-server -c /etc/snell/snell-server.conf" >>${SYSTEMD}
   echo "" >>${SYSTEMD}
