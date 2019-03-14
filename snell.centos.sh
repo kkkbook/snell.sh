@@ -41,7 +41,7 @@ else
   echo "User=nobody" >>${SYSTEMD}
   echo "Group=nogroup" >>${SYSTEMD}
   echo "LimitNOFILE=32768" >>${SYSTEMD}
-  echo "ExecStart=/usr/local/bin/snell-server -c /etc/snell-server.conf" >>${SYSTEMD}
+  echo "ExecStart=/usr/local/bin/snell-server -c /etc/snell/snell-server.conf" >>${SYSTEMD}
   echo "" >>${SYSTEMD}
   echo "[Install]" >>${SYSTEMD}
   echo "WantedBy=multi-user.target" >>${SYSTEMD}
