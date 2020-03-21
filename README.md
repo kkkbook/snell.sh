@@ -2,6 +2,9 @@
 ## 适用于64位Linux系统。
 ## 运行完毕后屏幕显示psk，默认端口号13254（我随手那么一按( ̀⌄ ́)，按照标准填入Surge即可。
 # 请使用root用户运行
+# 建议使用docker
+## https://github.com/primovist/snell-docker
+## https://hub.docker.com/repository/docker/primovist/snell-docker
 
 Debian & Ubuntu 用户请运行
 
@@ -29,7 +32,7 @@ systemctl restart snell
 
 自行修改。
 
-当然你也可以用vi ^o^
+当然你也可以用 vi ^o^
 
 查看运行状态：
 
